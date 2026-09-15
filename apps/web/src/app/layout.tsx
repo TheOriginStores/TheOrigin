@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 const siteUrl = "https://theoriginstores.com";
-const siteTitle = "TheOriginStores | Shop the Latest Fashion Trends";
+const siteTitle = "TheOriginStores";
 const siteDescription =
-  "TheOriginStores — curated, on-trend fashion launching soon. Discover our debut collection and follow us for updates.";
+  "Welcome to TheOriginStores. A carefully curated selection of on-trend fashion, launching soon — follow along as we bring our debut collection to life.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -32,8 +32,11 @@ export const metadata: Metadata = {
     google: "notranslate",
   },
   icons: {
-    icon: "/TheOriginLogoTab.png",
-    shortcut: "/TheOriginLogoTab.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/TheOriginLogoTab.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
     apple: "/TheOriginLogoTab.png",
   },
   openGraph: {
@@ -70,7 +73,11 @@ export const metadata: Metadata = {
   // },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html
       lang="en"
