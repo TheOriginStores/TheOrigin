@@ -48,7 +48,7 @@ export default function Home() {
           */}
           <div className="relative mx-auto mb-4 h-20 w-20 sm:mb-5 sm:h-24 sm:w-24 md:mb-6 md:h-28 md:w-28 lg:h-32 lg:w-32">
             <Image
-              src="/theoriginlogo.png"
+              src="/Logo.png"
               alt="Brand icon"
               fill
               unoptimized
