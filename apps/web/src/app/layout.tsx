@@ -15,15 +15,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TheOrigin | Shop the Latest Trends",
+  title: "TheOriginStores",
   description: "Discover the latest fashion trends at TheOrigin.",
+  // Tells Google not to auto-translate this page's title/snippet in search results
+  other: {
+    google: "notranslate",
+  },
+  icons: {
+    icon: "/TheOriginLogoTab.png",
+    shortcut: "/TheOriginLogoTab.png",
+    apple: "/TheOriginLogoTab.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      translate="no"
+      className={`notranslate ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         {/* <Navbar /> */}

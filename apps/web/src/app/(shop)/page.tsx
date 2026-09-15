@@ -30,9 +30,9 @@ const rethinkSans = Rethink_Sans({
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black p-2 sm:p-3">
+    <main className="min-h-screen bg-black">
       <div
-        className={`${rethinkSans.className} relative flex min-h-[calc(100vh-1rem)] flex-col items-center justify-center gap-10 overflow-hidden rounded-md px-4 py-10 text-center sm:min-h-[calc(100vh-1.5rem)] sm:gap-14 sm:py-16 md:py-20`}
+        className={`${rethinkSans.className} relative flex min-h-[calc(104vh-1rem)] flex-col items-center justify-center gap-10 overflow-hidden px-4 py-10 text-center sm:min-h-[calc(104vh-1.5rem)] sm:gap-14 sm:py-16 md:py-20`}
         style={{
           background:
             "linear-gradient(135deg, #4a0505 0%, #8a0e0e 45%, #d81414 100%)",
