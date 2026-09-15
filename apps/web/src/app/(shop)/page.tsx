@@ -51,6 +51,7 @@ export default function Home() {
               src="/theoriginlogo.png"
               alt="Brand icon"
               fill
+              unoptimized
               sizes="(max-width: 640px) 80px, (max-width: 768px) 96px, (max-width: 1024px) 112px, 128px"
               className="object-contain"
             />
@@ -76,11 +77,11 @@ export default function Home() {
               theoriginstores.ofcl
             </a>
             <a
-              href="mailto:theorigin@theoriginstores.com"
+              href="mailto:info@theoriginstores.com"
               className="flex items-center gap-2 transition-opacity hover:opacity-75"
             >
               <Mail size={15} />
-              theorigin@theoriginstores.com
+              info@theoriginstores.com
             </a>
           </div>
         </div>
