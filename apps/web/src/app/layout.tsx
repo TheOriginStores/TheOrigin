@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 const siteUrl = "https://theoriginstores.com";
 const siteTitle = "TheOriginStores | Shop the Latest Fashion Trends";
 const siteDescription =
-  "TheOriginStores is launching soon. Discover curated, on-trend fashion — follow us for the latest updates on our upcoming collection.";
+  "TheOriginStores — curated, on-trend fashion launching soon. Discover our debut collection and follow us for updates.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
