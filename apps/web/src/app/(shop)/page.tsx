@@ -76,11 +76,11 @@ export default function Home() {
               theoriginstores.ofcl
             </a>
             <a
-              href="mailto:info@theoriginstores.com"
+              href="mailto:theorigin@theoriginstores.com"
               className="flex items-center gap-2 transition-opacity hover:opacity-75"
             >
               <Mail size={15} />
-              info@theoriginstores.com
+              theorigin@theoriginstores.com
             </a>
           </div>
         </div>
